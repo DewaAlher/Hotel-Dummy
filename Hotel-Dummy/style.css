@@ -1,0 +1,77 @@
+/* Style untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style untuk judul header */
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 10px 20px;
+  }
+  section{
+    text-align: center;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: beige;
+
+  }
+  /* Style untuk navigasi header */
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style untuk item navigasi header */
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  /* Style untuk link navigasi header */
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style untuk grid foto */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  /* Style untuk foto */
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Style untuk bagian review */
+  .review {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style untuk judul review */
+  .review h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+  }
+  
+  /* Style untuk isi review */
+  .review p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
